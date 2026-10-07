@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <style>
+      htm{
+        scroll-behavior: smooth;
+      }
+      figure {
+        text-align: center;
+      }
+      figure img {
+        width: 200px;
+      }
+      figcaption {
+        color: #7c7b7b;
+        /* 
+        به صورت پیشفرض سایز اصلی صفحه ما 16 پیکسل می باشد
+        font-size: 16px; */
+        font-size: 0.75rem;
+      }
+      #goUp{
+        position:fixed ;
+        bottom: 20px;
+        right: 20px;
+        background-color: white;
+        
+      }
+     #goUp a{
+      color: red;
+     }
+
+     /* #breadcrump a::after{
+      content: '>';
+     } */
+
+    #breadcrump a::after{
+      content: url(./assets/image/chevron-right.svg);
+     }
+
+
+     
+
+    </style>
+</head>
+<body>
+  <header></header>
+  <article>
+    <div id="breadcrump">
+      <!-- <span class="bread-link"><a href="./">Home Page</a> > </span>
+      <span><a href="./Mag/">Mag</a> > </span>
+       this post -->
+       <a href="./">Home Page</a>
+       <a href="./Mag/">Mag</a> 
+       this post
+    </div>
+    <h1>Lorem, ipsum dolor.</h1>
+    <div id="author"></div>
+    <time datetime=""></time>
+    <figure>
+      <img src="./assets/image/pizza.jpg" alt="">
+      <figcaption>This is a pizza</figcaption>
+    </figure>
+    <nav>
+      <h3>table of content</h3>
+      <ul>
+        <li><a href="#header02">Header 02</a></li>
+        <li><a href="#header03">Header 03</a></li>
+        <li><a href="#header04">Header 04</a></li>
+        <li><a href="#header05">Header 05</a></li>
+      </ul>
+    </nav>
+
+    <h2 id="header02">Header 02</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat maxime saepe id nesciunt autem impedit sint molestiae dolorem, deleniti similique est earum omnis necessitatibus et doloribus voluptates placeat culpa laudantium. Dicta, voluptatum! Odit sit repellendus consectetur, ab distinctio, voluptates est enim quas commodi exercitationem nostrum qui numquam corrupti veniam iure. Delectus mollitia nesciunt atque reprehenderit aspernatur iste iure! Earum rerum velit voluptate dolores soluta aliquid nam quod deleniti, quas officia eum exercitationem animi. Minus eos ullam odio eaque aut quas sunt error architecto dolorum molestiae officiis voluptates harum facere, rerum incidunt quasi, velit perspiciatis expedita numquam ipsa voluptate? Laboriosam amet impedit officiis nesciunt, velit nisi. Libero laborum provident magnam ratione laboriosam, eum fugiat! Expedita tempora suscipit, iste inventore obcaecati, dolor aliquam id eaque nisi illum pariatur accusamus, iure veritatis alias. Mollitia deleniti voluptas quos temporibus tempora beatae accusantium! Atque numquam, repellat assumenda totam sit architecto ab est officia animi voluptatem soluta cupiditate harum odit eum voluptatum nihil voluptates ipsam aut distinctio. Veniam quidem laboriosam quis sed minus a tempore ipsa nesciunt sequi error optio iure velit voluptatum excepturi natus aspernatur repellendus deserunt, eius impedit temporibus praesentium. Nisi in mollitia et assumenda blanditiis, voluptas ipsum voluptatum odit quo asperiores, ducimus at?</p>
+
+
+
+    <h2 id="header03">Header 03</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat maxime saepe id nesciunt autem impedit sint molestiae dolorem, deleniti similique est earum omnis necessitatibus et doloribus voluptates placeat culpa laudantium. Dicta, voluptatum! Odit sit repellendus consectetur, ab distinctio, voluptates est enim quas commodi exercitationem nostrum qui numquam corrupti veniam iure. Delectus mollitia nesciunt atque reprehenderit aspernatur iste iure! Earum rerum velit voluptate dolores soluta aliquid nam quod deleniti, quas officia eum exercitationem animi. Minus eos ullam odio eaque aut quas sunt error architecto dolorum molestiae officiis voluptates harum facere, rerum incidunt quasi, velit perspiciatis expedita numquam ipsa voluptate? Laboriosam amet impedit officiis nesciunt, velit nisi. Libero laborum provident magnam ratione laboriosam, eum fugiat! Expedita tempora suscipit, iste inventore obcaecati, dolor aliquam id eaque nisi illum pariatur accusamus, iure veritatis alias. Mollitia deleniti voluptas quos temporibus tempora beatae accusantium! Atque numquam, repellat assumenda totam sit architecto ab est officia animi voluptatem soluta cupiditate harum odit eum voluptatum nihil voluptates ipsam aut distinctio. Veniam quidem laboriosam quis sed minus a tempore ipsa nesciunt sequi error optio iure velit voluptatum excepturi natus aspernatur repellendus deserunt, eius impedit temporibus praesentium. Nisi in mollitia et assumenda blanditiis, voluptas ipsum voluptatum odit quo asperiores, ducimus at?</p>
+
+
+
+    <h2 id="header04">Header 04</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat maxime saepe id nesciunt autem impedit sint molestiae dolorem, deleniti similique est earum omnis necessitatibus et doloribus voluptates placeat culpa laudantium. Dicta, voluptatum! Odit sit repellendus consectetur, ab distinctio, voluptates est enim quas commodi exercitationem nostrum qui numquam corrupti veniam iure. Delectus mollitia nesciunt atque reprehenderit aspernatur iste iure! Earum rerum velit voluptate dolores soluta aliquid nam quod deleniti, quas officia eum exercitationem animi. Minus eos ullam odio eaque aut quas sunt error architecto dolorum molestiae officiis voluptates harum facere, rerum incidunt quasi, velit perspiciatis expedita numquam ipsa voluptate? Laboriosam amet impedit officiis nesciunt, velit nisi. Libero laborum provident magnam ratione laboriosam, eum fugiat! Expedita tempora suscipit, iste inventore obcaecati, dolor aliquam id eaque nisi illum pariatur accusamus, iure veritatis alias. Mollitia deleniti voluptas quos temporibus tempora beatae accusantium! Atque numquam, repellat assumenda totam sit architecto ab est officia animi voluptatem soluta cupiditate harum odit eum voluptatum nihil voluptates ipsam aut distinctio. Veniam quidem laboriosam quis sed minus a tempore ipsa nesciunt sequi error optio iure velit voluptatum excepturi natus aspernatur repellendus deserunt, eius impedit temporibus praesentium. Nisi in mollitia et assumenda blanditiis, voluptas ipsum voluptatum odit quo asperiores, ducimus at?</p>
+
+
+    <h2 id="header05">Header 05</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat maxime saepe id nesciunt autem impedit sint molestiae dolorem, deleniti similique est earum omnis necessitatibus et doloribus voluptates placeat culpa laudantium. Dicta, voluptatum! Odit sit repellendus consectetur, ab distinctio, voluptates est enim quas commodi exercitationem nostrum qui numquam corrupti veniam iure. Delectus mollitia nesciunt atque reprehenderit aspernatur iste iure! Earum rerum velit voluptate dolores soluta aliquid nam quod deleniti, quas officia eum exercitationem animi. Minus eos ullam odio eaque aut quas sunt error architecto dolorum molestiae officiis voluptates harum facere, rerum incidunt quasi, velit perspiciatis expedita numquam ipsa voluptate? Laboriosam amet impedit officiis nesciunt, velit nisi. Libero laborum provident magnam ratione laboriosam, eum fugiat! Expedita tempora suscipit, iste inventore obcaecati, dolor aliquam id eaque nisi illum pariatur accusamus, iure veritatis alias. Mollitia deleniti voluptas quos temporibus tempora beatae accusantium! Atque numquam, repellat assumenda totam sit architecto ab est officia animi voluptatem soluta cupiditate harum odit eum voluptatum nihil voluptates ipsam aut distinctio. Veniam quidem laboriosam quis sed minus a tempore ipsa nesciunt sequi error optio iure velit voluptatum excepturi natus aspernatur repellendus deserunt, eius impedit temporibus praesentium. Nisi in mollitia et assumenda blanditiis, voluptas ipsum voluptatum odit quo asperiores, ducimus at?</p>
+
+
+  
+  </article>
+  <aside>
+
+  </aside>
+  <footer>
+    <div id="goUp">
+      <a href="#">  
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-box-arrow-in-up" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1z"/>
+        <path fill-rule="evenodd" d="M7.646 4.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V14.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708z"/>
+      </svg></a>
+    </div>
+  </footer>
+</body>
+</html>

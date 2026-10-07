@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    li{
+      float: left;
+    }
+
+    ul{
+      list-style-type: none;
+    }
+
+     #menu > li {
+        float: left;
+        /* background-color: blueviolet; */
+      }
+
+    a{
+      display: block;
+      background-color:beige;
+      color: dimgray;
+      text-decoration: none;
+      width: 100px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+    }
+    a:hover{
+      background-color: darkgoldenrod;
+    }
+  
+
+    #menu ul{
+      display: none;
+    }
+    #menu >li:hover ul{
+      display: block;
+    }
+    li::after{
+      content: "";
+      display: block;
+      border-bottom: 10px solid silver;
+      width: 0;
+      transition: 0.5s;
+      margin: 0 auto;
+    }
+    li:hover ::after{
+      width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+  <ul id="menu">
+    <li><a href="./">Home Page</a></li>
+    <li><a href="./about-us.html">About Us</a></li>
+    <li><a href="./contact-us.html">Contact Us</a></li>
+    <li><a href="./blog">Blog</a>
+      <ul>
+        <li><a href="./blog/post-01.html">Post 01</a></li>
+        <li><a href="">Post 02</a></li>
+        <li><a href="">Post 03</a></li>
+        </li>
+      </ul>
+
+  </ul>
+
+</body>
+</html>

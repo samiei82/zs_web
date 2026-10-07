@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table thead{
+      background-color: aqua;
+
+    }
+    table tbody{
+      background-color:rgb(184, 184, 233);
+
+    }
+    tfoot{
+      background-color: lightyellow;
+    }
+  </style>
+</head>
+<body>
+  <h1>Table جدول</h1>
+    <hr>
+
+    <table>
+    <thead>
+      <tr>
+        <th>Row</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Major</th>
+      </tr>
+    </thead>
+     <tbody>
+       <tr>
+          <th>1</th>
+          <td>zeinab</td>
+          <td>Samiei</td>
+          <td rowspan="2">computer</td>
+      </tr>
+      <tr>
+            <th>2</th>
+            <td>hossein</td>
+            <td>Samiei</td>
+           <!--  <td>history</td> -->
+      </tr>
+     </tbody>
+     
+      <tfoot>
+      <tr>
+          <th>3</th>
+        <td colspan="3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, blanditiis.
+        </td>
+      </tr>
+      </tfoot>
+
+    </table>
+</body>
+</html>

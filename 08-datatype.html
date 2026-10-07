@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/bootstrap.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>انواع داده ای</h1>
+    <hr />
+    <div id="card"></div>
+    <script>
+      //1. string
+      const firstName = "Zeinab";
+      const lastName = "Samiei";
+      const fullName = `I'm ${firstName} ${lastName}`;
+      const imageSRC = "./assets/image/microsoft.png";
+      console.log(fullName);
+      //https://getbootstrap.com/docs/4.4/components/card/
+      const card = `<div class="card" style="width: 18rem;">
+                      <img src="${imageSRC}" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">${fullName}</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>`;
+      document.getElementById("card").innerHTML = card;
+      //2.number
+      const age = 15;
+      console.log(age);
+      //3.bigint
+      //const money = 9999999999999999;
+      const money = 9999999999999999n + 10n;
+      console.log(money);
+      //4.boolean
+      const hasChild = true;
+
+      //5.undefined
+      let bowl;
+
+      //6.null
+      const pit = null;
+
+      //zero
+      let code = "";
+      let em = 0;
+      //7.symbol
+      const id1 = Symbol("id");
+      const id2 = Symbol("id");
+      console.log(id1 == id2);
+    </script>
+  </body>
+</html>

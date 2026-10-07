@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/styles/my-library.css">
+  <title>Document</title>
+   <style>
+      .form-label {
+        display: block;
+      }
+      .form-control {
+        display: block;
+        width: 90%;
+        padding: 4px;
+        margin: 3px 0;
+        border-radius: 5px;
+        border: 2px solid lightblue;
+      }
+
+    </style>
+</head>
+<body>
+    <form action="./45-login.html" target="_blank" method="get">
+    <div class="mb-3">
+      <label class="form-label" for="userName">User Name:</label>
+      <input class="form-control" type="text" id="userName" name="UserName" placeholder="userName" required />
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="password">Passowrd:</label>
+      <input class="form-control" id="password" type="password" name="Password" placeholder="password" required/>
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="password">Confirm Password</label>
+      <input class="form-control" type="password" id="password" name="ConfirmPassword" placeholder="Confirm Password" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="email">Email: </label>
+      <input class="form-control" type="email" id="email" name="Email" placeholder="email">    
+    </div>
+    <div>
+      <input type="submit">    
+    </div>
+    </form>
+</body>
+</html>

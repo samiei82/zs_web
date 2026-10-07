@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+     *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .row {
+      display: flex;
+      /* background-color: aqua; */
+      flex-direction: row;
+      /* flex-direction: row-reverse; */
+      /* flex-direction: column; */
+      /* flex-direction: column-reverse; */
+    }
+    .p-1{
+      background-color: blue;
+    }
+    .p-2{
+      background-color: rgb(0, 255, 174);
+    }
+
+      @media(max-width:577px) {
+       .row{
+        flex-direction: column;
+       }
+      }
+  </style>
+</head> 
+<body>
+
+  <div class="row">
+    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas culpa rerum, inventore quibusdam alias, eveniet fuga, earum et soluta nemo repellat nihil veniam esse ea facilis deserunt. Hic deserunt quo nihil ipsa ex reiciendis ab, in aperiam sint. Sunt, possimus?</p>
+    <p class="p-2">Quisquam, expedita atque. Quod, dolorum voluptas minima in vero distinctio obcaecati? Inventore officiis perferendis ipsam deserunt asperiores architecto id, debitis aliquam voluptatibus, quis nemo officia, magni nesciunt expedita laborum dignissimos quam. Impedit incidunt, sint ullam ipsam facere perferendis commodi iste?</p>
+  </div>
+  
+
+</body>
+</html>

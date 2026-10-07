@@ -1,0 +1,15 @@
+:root {
+  --primary: #e73f1e;
+  --secondary: #fb6c00;
+  --third: #f9b637;
+  --fourth: #ffdd9c;
+  --dark: black;
+  --light: white;
+  --gray: #ccc;
+  --danger: rgb(243, 29, 17);
+  --success: rgb(0, 255, 0);
+  --danger-light: rgb(245, 171, 171);
+  --success-light: rgb(212, 239, 212);
+  --danger-light : rgb(245,171,171);
+  --success-light : rgb(250, 246, 246);
+}

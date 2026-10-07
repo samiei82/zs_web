@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .row {
+      display: flex;
+    }
+    .column{
+      flex: 25%;
+    }
+    .column img{
+      width: 100%;
+    }
+    @media(max-width:576px){
+      .row{
+        flex-direction: column;
+      }
+    }
+
+    @media(min-width:577px) and (max-width:768px){
+      .row{
+        flex-wrap: wrap;
+      }
+      .column{
+        flex: 50%;
+      }
+    }
+  </style>
+</head>
+<body>
+ 
+    <div class="row">
+        <div class="column">
+          <img src="./assets/image/photo(1).jpg" alt="">
+          <img src="./assets/image/Egg.jpg" alt="">
+          <img src="./assets/image/photo(2).jpg" alt="">
+          <img src="./assets/image/photo(5).jpg" alt="">
+          <img src="./assets/image/photo(6).jpg" alt="">
+          <img src="./assets/image/photo(7).jpg" alt="">
+        </div>
+        <div class="column">
+          <img src="./assets/image/photo(2).jpg" alt="">
+          <img src="./assets/image/photo(6).jpg" alt="">
+          <img src="./assets/image/Oliv.jpg" alt="">
+          <img src="./assets/image/photo(1).jpg" alt="">
+          <img src="./assets/image/photo(10).jpg" alt="">
+          <img src="./assets/image/photo(7).jpg" alt="">
+        </div>
+        <div class="column">
+          <img src="./assets/image/photo(10).jpg" alt="">
+          <img src="./assets/image/dadanr.jpg" alt="">
+          <img src="./assets/image/photo(7).jpg" alt="">
+          <img src="./assets/image/photo(2).jpg" alt="">
+          <img src="./assets/image/photo(6).jpg" alt="">
+          <img src="./assets/image/photo(5).jpg" alt="">
+        </div>
+        <div class="column">
+          <img src="./assets/image/photo(7).jpg" alt="">
+          <img src="./assets/image/photo(6).jpg" alt="">
+          <img src="./assets/image/pirashki.jpg" alt="">
+          <img src="./assets/image/photo(1).jpg" alt="">
+          <img src="./assets/image/photo(10).jpg" alt="">
+          <img src="./assets/image/photo(2).jpg" alt="">
+        </div>
+        <div class="column">
+          <img src="./assets/image/photo(5).jpg" alt="">
+          <img src="./assets/image/photo(2).jpg" alt="">
+          <img src="./assets/image/photo(7).jpg" alt="">
+          <img src="./assets/image/photo(6).jpg" alt="">
+          <img src="./assets/image/Spanaj.jpg" alt="">
+          <img src="./assets/image/photo(13).jpg" alt="">
+        </div>
+        <div class="column">
+          <img src="./assets/image/photo(10).jpg" alt="">
+          <img src="./assets/image/photo(7).jpg" alt="">
+          <img src="./assets/image/photo(2).jpg" alt="">
+          <img src="./assets/image/photo(6).jpg" alt="">
+          <img src="./assets/image/photo(1).jpg" alt="">
+          <img src="./assets/image/salad.jpeg" alt="">
+        </div>
+    </div>
+</body>
+</html>

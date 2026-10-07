@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1{
+      display: none;
+    }
+    @media(max-width : 576px)
+    {
+      body{
+        background-color: cornflowerblue;
+      }
+      .xs{
+        display: block;
+      }
+    }
+
+    @media(min-width:577px) and (max-width:768px){
+      body{
+        background-color: darkolivegreen;
+      }
+      .sm {
+        display: block;
+      }
+    }
+    @media(min-width:769px) and (max-width:992px) {
+       body{
+        background-color: rgb(39, 11, 244);
+      }
+      .md {
+        display: block;
+      }
+    }
+    @media(min-width:993px) and (max-width:1400px) {
+      body{
+        background-color: rgb(198, 241, 6);
+      }
+      .lg {
+        display: block;
+      }
+
+    }
+    @media(min-width:1201px) and (max-width:1400px) {
+      body{
+        background-color: rgb(8, 228, 214);
+      }
+      .xl {
+        display: block;
+      }
+    }
+
+     @media(min-width:1401px)  {
+      body{
+        background-color: rgb(251, 10, 10);
+      }
+      .xxl {
+        display: block;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <h1 class="xs">Extra Small</h1>
+  <h1 class="sm"> Small</h1>
+  <h1 class="md"> Medium </h1>
+  <h1 class="lg">Large</h1>
+  <h1 class="xl">Extra Large</h1>
+  <h1 class="xxl">Extra Extra Large</h1>
+</body>
+</html>

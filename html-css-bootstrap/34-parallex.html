@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+  body, html {
+    height: 100%;
+  }
+
+  .parallax {
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #menu {
+      list-style-type: none;
+  }
+/*   
+   ul {
+      list-style-type: none;
+    } */
+
+   #menu  li{
+      float: left;
+    }
+
+    a{
+      display: block;
+      background-color: rgb(25, 148, 0);
+      color: white;
+      text-decoration: none;
+      width: 100px;
+
+    }
+
+    a:hover{
+      background-color: red;
+    }
+
+    /* #menu {
+      display: none;
+    }
+     */
+    p{
+      padding: 10px;
+    }
+    .education-list ,.skill-list{
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+</style>
+
+</head>
+<body>
+
+  <ul id="menu">
+    <li><a href="#Profile">Profile</a></li>
+    <li><a href="#Skills">Skills</a></li>
+    <li><a href="#Education">Education</a></li>
+    <li><a href="#Experience">Experience</a></li>
+    <li><a href="#Languages">Languages</a></li>
+    <li><a href="#Courses">Courses</a></li>
+  </ul>
+
+  <div class="parallax"  style="background-image:url(./assets/image/resume1.png) ;"></div>
+    <div style="height:20rem;background-color:rgb(165, 198, 212);">
+    <h2 id="Profile">Profile</h2>
+    <p>
+      Highly motivated CRM Developer with 6 years of experience specializing in Salesforce and Microsoft Dynamics 365 platforms. 
+      Proven ability to design, develop, and implement robust CRM solutions that streamline business processes and enhance user productivity. Adept at 
+      leveraging Apex, C#, JavaScript, and various integration tools to deliver scalable and efficient enterprise applications, consistently exceeding project goal
+    </p>
+  </div>
+
+  <div class="parallax" style="background-image:url(./assets/image/resume2.png) ;"></div>
+    <div  style="height:20rem;background-color: burlywood ;">
+    <h2 id="Skills">Skills</h2>
+    <p> 
+      <ul class="skill-list">
+        <li>CRM Platforms: Salesforce Sales/Service Cloud, Microsoft Dynamics 365 (CE), Pardot, Marketing Cloud, Field Service Lightning</li>
+        <li>Programming Languages: Apex, C#, JavaScript, SQL, HTML/CSS, .NET</li>
+        <li>Development & Tools: Visual Studio Code, Salesforce DX, Azure DevOps, Git, Jira, SOQL/SOSL</li>
+        <li>Cloud & Integration: AWS, Azure, REST/SOAP APIs, SSIS, Postman, Platform Events</li>
+        <li>Methodologies: Agile/Scrum, SDLC, Unit Testing, Deployment Management, Technical Documen</li>
+      </ul> 
+  
+    </p>
+  </div>
+
+
+  <div class="parallax" style="background-image:url(./assets/image/resume3.png) ;"></div>
+    <div style="height:20rem;background-color: sandybrown;">
+    <h2 id="Education">Education</h2>
+    <p>
+      <ul class="education-list">
+      <li>Graduated Cum Laude with a GPA of 3.8/4.0.</li>
+      <li>Awarded Dean’s List for 6 consecutive semesters for academic excellence.</li>
+      <li>Completed Capstone Project: Developed an AI-powered sentiment analysis tool for customer feedback, achieving 92% </li>
+    </ul>
+    </p>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Object</h1>
+    <hr />
+    <script>
+      const car = {
+        brand: "Benz",
+        model: "C200",
+        // start() {
+        //   console.log("Benz is started ...");
+        // },
+        // stop() {
+        //   console.log("Benz is stoped ....");
+        // },
+
+        start() {
+          console.log(this.model + " is started ...");
+        },
+        stop() {
+          console.log(` is stped ...`);
+        },
+      };
+      // console.log(car.brand);
+      // console.log(car.model);
+      // console.log(car.start);
+      car.color = "Red";
+      car.model = "X222";
+      console.log(car);
+      console.log(`car["brand"]:`, car["brand"]);
+
+      const person = {
+        id: 1,
+        fName: "Zeinab",
+        lName: "Samiei",
+        age: "40",
+      };
+    </script>
+  </body>
+</html>

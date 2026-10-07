@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function hello() {
+        console.log("-----------------------");
+        console.log("hello");
+        console.log("-----------------------");
+      }
+
+      function writeline() {
+        console.log("+++++++++++++++++");
+      }
+
+      function sayMessage(message) {
+        writeline();
+        console.log(message);
+        writeline();
+      }
+
+      hello();
+      sayMessage("How do you do");
+      sayMessage("GoodBye");
+
+      function sum(a, b) {
+        const result = a + b;
+        return result;
+      }
+
+      function avg(a, b) {
+        const result = sum(a, b) / 2;
+        return result;
+      }
+      const s = sum(2, 5);
+      console.log("SUM: ", s);
+
+      const a = avg(2, 5);
+      console.log("AVG: ", a);
+    </script>
+  </body>
+</html>

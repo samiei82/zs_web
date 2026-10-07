@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .row{
+      display: flex;
+      /* flex-direction: ;
+      flex-wrap: ;
+      flex-flow: ;
+      justify-content: ;
+      align-items: ;
+      justify-content: space-between; */
+
+      background-color: lightblue;
+      height: 100vh;
+    }
+    .row div{
+      border: 1px solid black;
+      /* width: 100%; */
+
+      
+    }
+    .div1{
+      background-color: springgreen;
+      /* flex-basis: 20%; */
+      /* order: 1; */
+      /* flex-shrink: ; */
+      flex-grow: 1;
+    }
+
+    .div2{
+      background-color: lightcoral;
+      /* order: 2; */
+      flex-grow: 10;
+
+    }
+
+    .div3{
+      background-color: slateblue;
+      /* order: 2; */
+      flex-grow: 1;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div class="row">
+    <div class="div1">login</div>
+    <div class="div2">nav</div>
+    <div class="div3">logo</div>
+  </div>
+
+</body>
+</html>

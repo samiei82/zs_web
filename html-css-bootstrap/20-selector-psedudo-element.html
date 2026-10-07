@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    p > span {
+      font-size: 2rem;
+    }
+    p::first-letter{
+      font-size: 2rem;
+    }
+    p::before{
+      content: "Start";
+      background-color: rgb(222, 245, 18);
+    }
+
+    p::after{
+      content: "End";
+      background-color: darkorange;
+    }
+  </style>
+</head>
+<body>
+  <h1>pseudo Element Selector</h1>
+<hr>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+  Incidunt nam eligendi omnis nobis minus earum repellendus 
+  eius ducimus voluptate maiores, saepe odio obcaecati ab sed, 
+  aautem aliquid exercitationem quam voluptatibus?
+</p>
+  
+</body>
+</html>
