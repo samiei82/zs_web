@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Event</h1>
+    <hr />
+    <input type="text" id="txtN1" />
+    <input type="text" id="txtN2" />
+    <button onclick="plus(txtN1.value, txtN2.value)">+</button>
+    <!--  <input id="txtTest" type="text" onkeypress="handelPress()" /> -->
+    <div>
+      <input type="number" id="result" />
+    </div>
+
+    <script>
+      debugger;
+      function plus(a, b) {
+        // alert(a);
+        const add = parseFloat(a) + parseFloat(b);
+        document.getElementById("result").value = add;
+      }
+
+      function handelPress() {
+        console.log(document.getElementById("txtTest").value.toUpperCase());
+      }
+    </script>
+  </body>
+</html>
